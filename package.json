@@ -1,0 +1,31 @@
+{
+  "name": "oswindowbtn",
+  "version": "0.0.1",
+  "description": "Win and Mac OS window button for web desgin",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daiyanze/oswindowbtn.git"
+  },
+  "keywords": [
+    "button",
+    "mac",
+    "win",
+    "window"
+  ],
+  "author": "daiyanze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daiyanze/oswindowbtn/issues"
+  },
+  "homepage": "https://github.com/daiyanze/oswindowbtn#readme",
+  "devDependencies": {
+    "gulp-sass": "^4.0.1"
+  }
+}

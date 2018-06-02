@@ -1,0 +1,26 @@
+.mac__btn {
+  -webkit-app-region: no-drag;
+  -webkit-box-sizing: border-box;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 13px;
+  width: 13px;
+}
+
+.mac__close {
+  background-color: #fe614d;
+}
+
+.mac__minimize {
+  background-color: #febc4e;
+}
+
+.mac__maximize {
+  background-color: #36c749;
+}
+
+.unfocused {
+  background-color: #dcdcdc;
+  border-color: #d1d1d1;
+  opacity: .3;
+}
