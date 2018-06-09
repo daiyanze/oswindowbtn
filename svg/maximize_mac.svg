@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="14" height="14" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <g fill="#00efff" fill-rule="evenodd" transform="matrix(0.864168, 0, 0, 0.864168, 0.021647, -0.478624)" bx:origin="-0.7 -0.7">
+    <path stroke="#006500" d="m9.498561,4.546134l0,2.910217l-2.957121,-2.910217l2.957121,0z" fill="#006500"/>
+    <path transform="rotate(180 6.00124 8.05106)" stroke="#006500" d="m7.479803,6.595951l0,2.910217l-2.957121,-2.910217l2.957121,0z" fill="#006500"/>
+  </g>
+</svg>

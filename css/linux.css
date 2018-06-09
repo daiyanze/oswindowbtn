@@ -1,0 +1,12 @@
+.linux__btn {
+  -webkit-app-region: no-drag;
+  -webkit-box-sizing: border-box;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 13px;
+  width: 13px;
+}
+
+.linux__close {
+  background-color: #fe614d;
+}
