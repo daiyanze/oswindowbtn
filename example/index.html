@@ -12,9 +12,10 @@
 <style type="text/css">
 main {
   margin: 50px 50px;
-  display: flex;
+/*  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  text-align: center;*/
 }
 </style>
 <body>
@@ -23,7 +24,7 @@ main {
       mac
       <div class="mac__btn mac__close">
         <svg width="14" height="14" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-          <path stroke="#820000" fill="none" d="M 8.8 2.98 L 6.151 5.627 L 3.4 2.98 L 6.151 5.627 L 3.4 8.38 L 6.151 5.627 L 8.8 8.38 L 6.151 5.627 L 8.8 2.98 Z" bx:origin="0.5 0.892"/>
+          <path stroke="#520000" fill="none" d="M 8.7 3.4 L 6.051 6.047 L 3.3 3.4 L 6.051 6.047 L 3.3 8.8 L 6.051 6.047 L 8.7 8.8 L 6.051 6.047 L 8.7 3.4 Z" bx:origin="0.5 0.892"/>
         </svg>
       </div>
       <br>
@@ -34,45 +35,56 @@ main {
       </div>
       <br>
       <div class="mac__btn mac__maximize">
-        <svg class="mac__icon" name="mac__icon__maximize" width="14" height="14" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-          <g fill="#00efff" fill-rule="evenodd" transform="matrix(0.864168, 0, 0, 0.864168, 0.021647, -0.478624)" bx:origin="-0.7 -0.7">
+        <svg width="14" height="14" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+          <g fill="#00efff" fill-rule="evenodd" transform="matrix(0.904362, 0, 0, 0.907252, -0.340137, -0.37449)" bx:origin="-0.833 -0.833">
             <path stroke="#006500" d="m9.498561,4.546134l0,2.910217l-2.957121,-2.910217l2.957121,0z" fill="#006500"/>
             <path transform="rotate(180 6.00124 8.05106)" stroke="#006500" d="m7.479803,6.595951l0,2.910217l-2.957121,-2.910217l2.957121,0z" fill="#006500"/>
           </g>
         </svg>
       </div>
     </div>
-<!--     <div id="linux">
+    <div id="linux">
       linux
-      <div class="linux__btn linux__close">
+      <div class="linux__btn linux__ubuntu">
+        <img width="14" height="14" src="../svg/close_mac.svg" />
+      </div>
+      <br>
+      <div class="linux__btn linux__ubuntu">
         <svg width="14" height="14" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-          <path stroke="#820000" fill="none" d="M 8.8 2.98 L 6.151 5.627 L 3.4 2.98 L 6.151 5.627 L 3.4 8.38 L 6.151 5.627 L 8.8 8.38 L 6.151 5.627 L 8.8 2.98 Z" bx:origin="0.5 0.892"/>
+          <path stroke="#820000" fill="none" d="M 8.8 2.98 L 6.151 5.627 L 3.4 2.98 L 6.151 5.627 L 3.4 8.38 L 6.151 5.627 L 8.8 8.38 L 6.151 5.627 L 8.8 2.98 Z" />
+        </svg>
+      </div>
+      <br>
+      <div class="linux__btn linux__ubuntu">
+        <svg width="14" height="14" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+          <rect fill="#820000" width="7.3" height="1" x="2.35" y="5.5" fill-rule="evenodd"/>
+        </svg>
+      </div>
+      <br>
+      <div class="linux__btn linux__ubuntu">
+        <svg width="14" height="14" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+          <rect stroke="#820000" x="3.5" y="3.5" width="5" height="5" style="fill-rule: evenodd; fill: none; stroke-linecap: square;"/>
         </svg>
       </div>
     </div>
     <div id="win">
       win
       <div class="win__btn win__minimize">
-        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <polyline style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" points="3.572 15.696 20.427 15.634"/>
         </svg>
       </div>
       <div class="win__btn win__maximize">
-        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <pattern id="pattern-0" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse" viewBox="0 0 100 100">
-              <path d="M 0 0 L 50 0 L 50 100 L 0 100 Z" style="fill: black;"/>
-            </pattern>
-          </defs>
+        <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <rect x="4.5" y="4.5" width="15" height="15" style="fill-rule: evenodd; fill: none; stroke: rgb(46, 48, 41); stroke-linecap: square;"/>
         </svg>
       </div>
       <div class="win__btn win__close">
-        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <line style="stroke: rgb(0, 0, 0);" x1="2.084" y1="12" x2="21.916" y2="12" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -4.970563, 11.999999)"/>
           <line style="stroke: rgb(0, 0, 0);" x1="2.084" y1="12" x2="21.916" y2="12" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 12, -4.970563)"/>
         </svg>
-      </div> -->
+      </div>
     </div>  
   </main>
 </body>

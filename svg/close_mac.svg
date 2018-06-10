@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="14" height="14" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-  <path stroke="#820000" fill="none" d="M 8.8 2.98 L 6.151 5.627 L 3.4 2.98 L 6.151 5.627 L 3.4 8.38 L 6.151 5.627 L 8.8 8.38 L 6.151 5.627 L 8.8 2.98 Z" bx:origin="0.5 0.892"/>
+  <path stroke="#520000" fill="none" d="M 8.7 3.4 L 6.051 6.047 L 3.3 3.4 L 6.051 6.047 L 3.3 8.8 L 6.051 6.047 L 8.7 8.8 L 6.051 6.047 L 8.7 3.4 Z" bx:origin="0.5 0.892"/>
 </svg>

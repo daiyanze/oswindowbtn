@@ -3,10 +3,16 @@
   -webkit-box-sizing: border-box;
   border-radius: 50%;
   box-sizing: border-box;
-  height: 13px;
-  width: 13px;
+  height: 14px;
+  width: 14px;
 }
 
-.linux__close {
-  background-color: #fe614d;
+.linux__ubuntu {
+  background-color: #ea6440;
+}
+
+.unfocused {
+  background-color: #dcdcdc;
+  border-color: #d1d1d1;
+  opacity: .3;
 }
