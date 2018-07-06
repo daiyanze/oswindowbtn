@@ -8,19 +8,23 @@
   <link rel="stylesheet" href="../css/mac.css" />
   <link rel="stylesheet" href="../css/win.css" />
   <link rel="stylesheet" href="../css/linux.css" />
+  <style>
+    .flex-inline {
+      max-width: 200px;
+      display: flex;
+      justify-content: space-between;
+      margin: 10px;
+    }
+  </style>
 </head>
 <style type="text/css">
 main {
   margin: 50px 50px;
-/*  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  text-align: center;*/
 }
 </style>
 <body>
   <main>
-    <div id="mac">
+    <div id="mac" class="flex-inline">
       mac
       <div class="mac__btn mac__close">
         <svg width="14" height="14" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
@@ -43,17 +47,17 @@ main {
         </svg>
       </div>
     </div>
-    <div id="linux">
+    <div id="linux" class="flex-inline">
       linux
       <div class="linux__btn linux__ubuntu">
         <img width="14" height="14" src="../svg/close_mac.svg" />
       </div>
       <br>
-      <div class="linux__btn linux__ubuntu">
+      <!-- <div class="linux__btn linux__ubuntu">
         <svg width="14" height="14" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
           <path stroke="#820000" fill="none" d="M 8.8 2.98 L 6.151 5.627 L 3.4 2.98 L 6.151 5.627 L 3.4 8.38 L 6.151 5.627 L 8.8 8.38 L 6.151 5.627 L 8.8 2.98 Z" />
         </svg>
-      </div>
+      </div> -->
       <br>
       <div class="linux__btn linux__ubuntu">
         <svg width="14" height="14" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -67,7 +71,7 @@ main {
         </svg>
       </div>
     </div>
-    <div id="win">
+    <div id="win" class="flex-inline">
       win
       <div class="win__btn win__minimize">
         <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -85,7 +89,7 @@ main {
           <line style="stroke: rgb(0, 0, 0);" x1="2.084" y1="12" x2="21.916" y2="12" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 12, -4.970563)"/>
         </svg>
       </div>
-    </div>  
+    </div>
   </main>
 </body>
 </html>
